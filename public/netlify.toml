@@ -1,0 +1,16 @@
+# This file is read by our host (Netlify) to configure server settings
+
+# This section forwards all urls on the domain to vue-router
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Security headers to stop hackers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "no-referrer"
+    X-Content-Type-Options = "nosniff"
