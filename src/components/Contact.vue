@@ -6,7 +6,7 @@
       Get a Quote
     </v-card-title>
     <v-layout justify-center>
-      <v-flex xs10 lg6>
+      <v-flex xs10 lg9 xl8>
         <v-form>
           <v-text-field
             v-model="firstName"
