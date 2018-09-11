@@ -20,12 +20,12 @@
                 class="mb-4"
                 :key="ind"
               >
-                <v-flex xs1>
+                <v-flex xs2 lg1>
                   <v-avatar>
                     <v-icon x-large="">account_circle</v-icon>
                   </v-avatar>
                 </v-flex>
-                <v-flex xs10>
+                <v-flex xs9>
                   <h1 class="display-2 primary--text">John Smith</h1>
                 </v-flex>
                 <v-flex xs10 class="ml-3 mt-1">
