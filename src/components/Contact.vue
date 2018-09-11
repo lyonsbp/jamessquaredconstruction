@@ -53,7 +53,7 @@
     </v-layout>
     <v-card-actions>
       <v-layout justify-end>
-        <v-flex xs2>
+        <v-flex xs3>
           <v-btn
             color="primary"
           >Submit

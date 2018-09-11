@@ -33,8 +33,8 @@
         class="secondary--text"
         @click.stop="drawer = !drawer">
       </v-toolbar-side-icon>
-      <v-toolbar-title 
-        class="secondary--text" 
+      <v-toolbar-title
+        class="secondary--text"
         v-text="title"
       >
       </v-toolbar-title>
